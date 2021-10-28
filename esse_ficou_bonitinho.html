@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Reza e vai</title>
+        <style>
+            .troca{
+                box-shadow: 20px 20px; 
+                opacity: 100%;
+            }
+        </style>
+        <script>
+            function troca (){
+                document.getElementById('work').style.opacity= 100
+                document.getElementById('butao').remove()
+                document.body.style.background = 'blue'
+            }
+        </script>
+    </head>
+    <body>
+       
+        <button style="margin-left: 1200px; margin-top: 15%; background-color: #DA9FCF; border:none; padding: 15px 32px; color: #B25DC7; box-shadow: 5px 5px;"  id="butao" onclick="troca()">Cor Ruim</button>
+        <div id="work" style="opacity: 0%; width: 0%; height: 0%;">
+        <img style="width: 100px; height: 100px; margin-bottom: 60px; margin-left: 1200px; margin-top: 200px; box-shadow: 20px 20px;" src="https://www.pngitem.com/pimgs/m/84-844188_shape-rhombus-geometric-shape-line-art-square-png.png" alt=""> 
+        <img style="height: 100px; width: 100px; margin-bottom: 60px; margin-left: 1200px; box-shadow: 20px 20px;" src="https://c8.alamy.com/comp/2A86KW8/vector-geometric-form-isolated-illustration-element-mosaic-shape-2A86KW8.jpg" alt=""> 
+        <img style="height: 100px; width: 100px; margin-left: 1200px; box-shadow: 20px 20px;" src="https://www.pngkit.com/png/detail/92-929646_triangle-black-triangle-with-a-white-outline.png" alt="">
+        </div>
+        
+    </body>
+</html>
