@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Reza e vai</title>
+        <style>
+            .main{
+                margin-left: 1200px;
+                margin-top: 15%;
+                background-color: #DA9FCF;
+                border:none;
+                padding: 15px 32px;
+                color: #B25DC7;
+                box-shadow: 15px 15px ;
+
+                  
+            }
+            
+        </style>
+        <script>
+            function troca (){
+                document.getElementById('work').style.opacity= 100
+                document.getElementById('butao').remove()
+                document.body.style.background = 'blue'
+            }
+        </script>
+    </head>
+    <body>
+       
+        <button class="main" id="butao" onclick="troca()">Cor Ruim</button>
+        <div id="work" style="opacity: 0%; width: 0%; height: 0%;">
+        <img  src="img//Rectangle2.png" alt="">
+        <img  src="img//Polygon 1.png" alt="">
+        <img  src="img//Rectangle3.png" alt="">
+        <img  src="img//Star 1.png" alt="">
+        </div>
+
+        
+        
+    </body>
+</html>
